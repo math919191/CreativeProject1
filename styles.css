@@ -1,0 +1,48 @@
+/* --dark-purple: #32021fff;
+--indian-red: #c95d63ff;
+--tan: #d5b78bff;
+--cornflower-blue: #7796cbff;
+--space-cadet: #2d3047ff; */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.bg-light {
+    background-color: #aa78a6ff!important;
+  }
+
+img {
+    width: 100%;
+}
+.home-image {
+    width: 90%;
+    border: thick red;
+    color: white;
+}
+.section-1 {
+    display: flex;
+    width: vw;
+    justify-content: center;
+}
+
+.top-left {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-size: 50px;
+    transform: translate(-50%, -50%);
+  }
+
+  /* body {
+      background-image: url("/images/4474421855_4b20643258_c.jpg");
+      background-repeat: no-repeat;
+      background-size: cover;
+  } */
+
+  h1 {
+      color:#c95d63ff;
+  }
