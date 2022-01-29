@@ -4,6 +4,8 @@
 --cornflower-blue: #7796cbff;
 --space-cadet: #2d3047ff; 
 E8DDB5
+https://coolors.co/2e294e-037171-7899d4-002400-e8ddb5-273b09
+
 */
 
 * {
@@ -12,7 +14,6 @@ E8DDB5
     box-sizing: border-box;
     font-family: "Courgette", cursive;
     
-
 }
 body {
   background-color: #7796cbff;
