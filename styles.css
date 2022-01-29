@@ -28,9 +28,12 @@ img {
     width: 100%;
 }
 .home-image {
-    width: 90%;
+    width: 1000px;
+    max-height: 900px;
     border: thick red;
     color: white;
+    position: relative;
+  
 }
 .section-1 {
     display: flex;
@@ -38,16 +41,22 @@ img {
     justify-content: center;
 }
 
-.top-left {
+.home-heading {
     position: absolute;
-    top: 40%;
+    top: 30%;
+    left: 20px;
+
+    padding-left: 20px;
+    margin-right: 50%;
+    font-size: 50px;
+    /* top: 40%;
     left: 40%;
     font-size: 50px;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%); */
   }
 
   .navbar-light .navbar-nav .nav-link {
-        /* font-size: 1.5em; */
+        font-size: 1.5em;
   }
 
 
