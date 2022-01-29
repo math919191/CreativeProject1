@@ -8,6 +8,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Courgette', cursive;
 
 }
 
@@ -31,18 +32,20 @@ img {
 
 .top-left {
     position: absolute;
-    top: 50%;
-    left: 50%;
+    top: 40%;
+    left: 40%;
     font-size: 50px;
     transform: translate(-50%, -50%);
   }
 
-  /* body {
-      background-image: url("/images/4474421855_4b20643258_c.jpg");
-      background-repeat: no-repeat;
-      background-size: cover;
-  } */
+  .navbar-light .navbar-nav .nav-link {
+        /* font-size: 1.5em; */
+  }
 
   h1 {
       color:#c95d63ff;
+  }
+
+  p {
+      font-size: 1.5em;
   }
