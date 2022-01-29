@@ -58,6 +58,7 @@ img {
       width: 100%;
       flex-wrap: wrap;
     flex-direction: row;
+    
   }
   .rec-book {
     /* height: 200px; */
@@ -66,8 +67,9 @@ img {
     border: 8px solid #7796cbff;
     justify-content: center;
 
+
   }
-  img {
+  .rec-image {
       width: 100%;
       height: 100%;
       object-fit: cover;
@@ -96,7 +98,21 @@ img {
 
   }
   h6, p{
-    color: white;
+    color: #2d3047ff;
+  }
+
+  p {
+    /* font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'Courgette', cursive; */
+    
+    /* font-family: 'Dongle', sans-serif; */
+    font-family: 'Courgette', cursive;
+  /* font-family: 'Dongle', sans-serif;
+   */
+  }
+  h6 {
+    font-size: 20px;
+
   }
 
   .rec {
@@ -105,6 +121,44 @@ img {
       justify-content:   center;
   }
 
+
+.about-contain {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.about-text {
+  /* border: 5px solid black; */
+  margin: 20px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 40%;
+}
 .about-image{
-  width: 200px;
+  /* border: 5px solid black; */
+  display: flex;
+  width: 40%;
+}
+
+#po {
+  width: 100%;
+  object-fit:contain;
+  margin: 50px;
+}
+
+.checked {
+  color: #2d3047ff;
+}
+
+.unchecked {
+  color: white;
+}
+.rating{
+  font-size: 30px;
+  color: #2d3047ff;
+  padding: 0;
+  margin: 0;
+  border: 0;
+  line-height: 30px;
 }
