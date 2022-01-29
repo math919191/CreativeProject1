@@ -105,6 +105,27 @@ img {
       justify-content:   center;
   }
 
+
+.about-contain {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.about-text {
+  /* border: 5px solid black; */
+
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 60%;
+}
 .about-image{
-  width: 200px;
+  /* border: 5px solid black; */
+  display: flex;
+  width: 400px;
+  min-width: 300px;
+}
+#po {
+  margin: 50px;
+  width: 400px;  
 }
